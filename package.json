@@ -1,0 +1,21 @@
+{
+  "name": "callbag-latest",
+  "version": "1.0.0",
+  "description": "Callbag operator that turns a listenable source into a pullable, returning latest data on request",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krawaller/callback-latest.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "blog.krawaller.se",
+  "license": "MIT",
+  "keywords": [
+    "callbag"
+  ],
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
