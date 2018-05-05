@@ -1,6 +1,6 @@
 {
   "name": "callbag-latest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Callbag operator that turns a listenable source into a pullable, returning latest data on request",
   "repository": {
     "type": "git",
