@@ -19,4 +19,4 @@ const latest = listenable => (start, sink) =>  {
   });
 };
 
-module.exports = latest;
+export default latest;

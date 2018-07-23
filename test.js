@@ -1,6 +1,6 @@
 const test = require('tape');
 const makeMockCallbag = require('callbag-mock');
-const latest = require('./index');
+const latest = require('.');
 
 test('it emits the latest from listenable when downstream source asks', t => {
   const listenable = makeMockCallbag(true);
